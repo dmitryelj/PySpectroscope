@@ -5,6 +5,8 @@ A cross-platform Python App for a USB spectroscope.
 A popular choice for a spectrometer is a Theremino app, but it works only for Windows.
 This app should work on any system capable to run Tkinter, NumPy and OpenCV (Windows, OSX, Lixux, Raspberry Pi).
 
+This project was inspired by a PySpectrometer app, which is alas, abandoned, and its last release was in 2022.
+
 ### Installation & Run
 ```
 git clone https://github.com/dmitryelj/PySpectroscope
@@ -12,7 +14,7 @@ pip3 install -r requirements.txt
 python3 spectroscope.py
 ```
 
-Your spectroscope should be detectable as a USB video device. If you have several cameras, you cal adjust a video_source parameter.
+Your spectroscope should be detectable as a USB video device. If you have several cameras, you can adjust a video_source parameter.
 
 ### UI
 
